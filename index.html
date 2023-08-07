@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOVIE SITE</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="btn">
+    <header>
+        <h2><i class="ri-movie-2-fill"></i>MOVIE SITE</h2>
+    
+    <div class="nav">
+        <h4>home</h4>
+        <h4>account</h4>
+        <h4>movies</h4>
+        <h4>series</h4>
+        <i class="ri-menu-3-fill"></i>
+
+    </div>
+</header>
+<div class="main">
+    <div class="search">
+        <input type="text" id="movie_name" placeholder="Enter movie name">
+        <button class="btn"  onclick="search()"><i class="ri-search-line"></i></button>
+    </div>
+    <div class="movieDetails">
+        <div class="shell">
+            <img id="poster" src=""alt="">
+        </div>
+
+        
+        <div class="Details">
+            
+            <h1 id="title"> This site will give all details of any movie
+                for this enter the NAME of movie in the search bar and click on the search button to get the following details.... </h1>
+        
+                <p>RELEASE DATE  <span id="date"></span></p>
+                
+                <P>ACTORS <span id="actor"></span></P>
+                
+                <P>GENERE <span id="genre"></span></P>
+                <P>DESCRIPTION <span id="desc"></span></P>
+                <P>BOX OFFICE <span id="collection"></span></P>
+                <P>DIRECTOR <span id="dir"></span></P>
+                <P>IMDB RATING  <span id="rating"></span></P>
+        </div>    
+    </div>
+        
+    
+</div>
+
+<script src="movie.js"></script>
+
+</body>
+</html>

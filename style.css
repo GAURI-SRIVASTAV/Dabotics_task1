@@ -1,0 +1,146 @@
+body{
+    margin:0px;
+    height: 100%;
+    width: 100%; 
+    background-image: url(27230.jpg);
+    background-color: black; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
+
+}
+header{
+    height:100px;
+    width:97%;  
+    background-color:beige;
+    display: flex;
+
+    border-bottom: 2px solid #dadada;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2vw;
+}
+header i{
+    font-size: 3vw;
+    flex-wrap: 800;
+}
+.nav{
+    display:flex; 
+    gap:2vw;
+    align-items: center;
+}
+
+h4{
+    font-size: 2vw;
+    font-weight: 400;
+}
+.search{
+    margin: 5% 0 0 0;
+    display:flex;
+    justify-content: center;
+
+}
+input{
+    padding: 17px;
+    font-size: 30px;
+    border-radius: 12px 0 0 12px;
+    width: 40%;
+    border: 1px solid rgba(106, 106, 106, 0.05);
+    background-color: beige;
+    color:black ;
+}
+input:focus{
+    outline: none;
+    border: 1px solid rgba(117, 117, 117, 0.591);
+    background-color: rgb(117, 117, 117, 0.591);
+}
+.btn{
+    background-color:black;
+    color: beige;
+    font-size: 30px;
+    border:none;
+    border-radius: 0 12px 12px 0;
+    cursor: pointer;
+}
+
+.movieDetails{ 
+    margin: 0 6vw ;
+    padding: 0px; 
+    color:beige; 
+    display: flex; 
+    flex-flow: row; 
+    overflow:hidden ;
+    justify-content:center;
+
+}
+
+.shell{
+    margin: 3%; 
+    display: flex;
+    justify-content: center;
+}
+.Details{ 
+    font-size: 2vw;
+    padding: 0 0 0 0;
+    font-size: 1.5vw;
+    display: wrap;
+}
+h1{
+    font-size: 3vw;
+    font-weight: 1000;
+}
+h2{
+    font-size: 3vw;
+    font-weight: 700;
+}
+
+p{
+    margin: 0px;
+}
+p span{
+    font-size: 2vw;
+    color:rgb(173, 173, 167);
+}
+/*.Details{
+}*/
+@media (max-width:600px) {
+    
+    header{ 
+        padding:0 6vw;
+        height: 60px;
+    }
+    header i{
+        font-size: 5vw; 
+    }
+    p{
+        font-size: 3vw;
+    }
+    p span{
+        font-size:10px;
+    }
+    h1{
+        
+        font-size: 5vw;
+    }
+    header h2{
+        
+        font-size: 5vw;
+    }
+    header h4{
+        font-size: 3vw;
+        display: none;
+    }
+    .movieDetails{
+        flex-wrap: wrap;
+        font-size: 4vw;
+    }
+    input{
+        font-size: 3vw;
+        
+}
+    p span{
+        font-size:2vw;
+    }
+}
